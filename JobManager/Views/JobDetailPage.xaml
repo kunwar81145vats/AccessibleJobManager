@@ -40,13 +40,13 @@
 
                 <Button Text="Save" Command="{Binding SaveCommand}"
                        AutomationProperties.IsInAccessibleTree="true"
-                       AutomationProperties.Name="Save project"
+                       AutomationProperties.Name=" Use to save project details"
                         />
 
                 <Button Text="Take Picture" Command="{Binding TakePictureCommand}"
 
                        AutomationProperties.IsInAccessibleTree="true"
-                       AutomationProperties.Name="Take picture"
+                       AutomationProperties.Name="Use to take pictures for project"
                         />
                 <Image Source="{Binding Picture}"/>
 

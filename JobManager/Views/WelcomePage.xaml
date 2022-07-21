@@ -16,7 +16,11 @@
 
             <Label Text="Orientation: " FontSize="Medium" />
             <Label Text="{Binding Orientation}" FontSize="Large" />
-            <Button Text="Get Orientation" Command="{Binding GetOrientationCommand}" />
+            <Button Text="Get Orientation" Command="{Binding GetOrientationCommand}"
+
+                    AutomationProperties.IsInAccessibleTree="true"
+                    AutomationProperties.Name="Displays current orientation of device on Orientation Label"
+                    />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
